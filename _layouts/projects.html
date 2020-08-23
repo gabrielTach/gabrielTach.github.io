@@ -1,6 +1,5 @@
 {% include header.html %}
-<body>
-    {% include return_menu.html %}
+{% include return_menu.html %}
 <div class="main">
   <div class="ui equal height main grid projects">
     <div class="sixteen wide phone ten wide tablet ten wide computer column">
@@ -23,7 +22,7 @@
             {{project.content}}
           </div>
         </div>
-        {% if project.website != nil && project.website %}
+        {% if project.website != nil and project.website %}
           <div class="ui grid">
             <div class="{{position}} floated {{position}} aligned four wide project column">
               <i class="external alternate icon"></i> <a href="{{project.website}}" title="{{project.name}}">{{project.website}}</a>
@@ -34,5 +33,4 @@
     </div>
   </div>
 </div>
-</body>
-</html>
+{% include footer.html %}

@@ -1,0 +1,22 @@
+{% include header.html %}
+{% include return_menu.html %}
+<div class="main face">
+  <div class="ui grid">
+    <div class="centered sixteen wide portable twelve wide tablet nine wide computer column">
+    <img class="ui centered small image" src="/assets/img/me.jpg"><br/>
+    </div>
+  </div>
+  <div class="ui grid">
+    <div class="centered sixteen wide portable height wide tablet five wide computer cv column">
+      <h1 class="ui centered horizontal divider header">
+        Curriculum
+      </h1>
+    </div>
+  </div>
+  <div class="ui equal height grid">
+    <div class="centered sixteen wide portable twelve wide tablet nine wide computer cv column">
+      {{content}}
+    </div>
+  </div>
+</div>
+{% include footer.html %}

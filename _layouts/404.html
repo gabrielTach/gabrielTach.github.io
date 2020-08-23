@@ -1,7 +1,7 @@
 {% include header.html %}
-<div class="main">
+<div class="main" style="height: 100%">
   <div class="ui equal height main grid">
-    <div class="sixteen wide phone six wide tablet eight wide computer column hero">
+    <div class="sixteen wide phone eight wide tablet twelve wide computer column hero lost">
       <div class="ui black vertical buttons right floated">
         <a href="{% link curriculum.html %}" class="ui button" tabindex="0">
           Curriculum
@@ -17,15 +17,6 @@
     <div class="sixteen wide phone ten wide tablet four wide computer column">
       <div class="ui basic segment">
         {{content}}
-      </div>
-    </div>
-    <div class="sixteen wide tablet four wide computer column">
-      <div class="ui basic segment">
-        <h4 class="ui horizontal divider header">
-          <i class="twitter icon"></i>
-          My Tweets
-        </h4>
-        {% include twitter.html %}
       </div>
     </div>
   </div>
