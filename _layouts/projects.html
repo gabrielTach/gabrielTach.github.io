@@ -1,0 +1,38 @@
+{% include header.html %}
+<body>
+    {% include return_menu.html %}
+<div class="main">
+  <div class="ui equal height main grid projects">
+    <div class="sixteen wide phone ten wide tablet ten wide computer column">
+      {% for project in site.projects %}
+        {% assign odd = forloop.index | modulo: 2 %}
+        {% if odd == 0 %}
+          {% assign position = "right" %}
+        {% else %}
+          {% assign position = "left" %}
+        {% endif %}
+        <div class="ui grid">
+          <div class="{{position}} floated center aligned four wide project--title column">
+            <h1 class="ui header" id="{{project.name | slugify}}">
+              {{ project.name }}
+            </h1>
+          </div>
+        </div>
+        <div class="ui grid">
+          <div class="{{position}} floated {{position}} aligned twelve wide project column">
+            {{project.content}}
+          </div>
+        </div>
+        {% if project.website != nil && project.website %}
+          <div class="ui grid">
+            <div class="{{position}} floated {{position}} aligned four wide project column">
+              <i class="external alternate icon"></i> <a href="{{project.website}}" title="{{project.name}}">{{project.website}}</a>
+            </div>
+          </div>
+        {%endif%}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</body>
+</html>

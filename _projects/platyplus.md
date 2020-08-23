@@ -1,0 +1,11 @@
+---
+name: Platy+
+website: platypl.us
+---
+Platyplus is a registration system for conventions developped in PHP. It is very configurable and is thus used by more than one convention.
+
+It has been tested and validated in real life and keeps being improved after each edition of a convention. Flüüfff and Fauntastic are part of its users.
+
+I have mainly worked on the back-end of the system and the documentation.
+
+It accepts different payment providers and the plan is to make it work with even more providers.

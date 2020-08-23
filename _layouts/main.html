@@ -1,0 +1,31 @@
+    {% include header.html %}
+  <body>
+    <div class="main">
+      <div class="ui equal height main grid">
+        <div class="sixteen wide phone six wide tablet eight wide computer column hero">
+          <div class="ui black vertical buttons right floated">
+            <a href="{% link cv.html %}" class="ui button" tabindex="0">
+              Curriculum
+            </a>
+            <a href="{% link projects.html %}" class="ui button" tabindex="1">
+              Projects
+            </a>
+            <a href="{% link contact.html %}" class="ui button" tabindex="2">
+              Contact
+            </a>
+          </div>
+        </div>
+        <div class="sixteen wide phone ten wide tablet four wide computer column">
+          <div class="ui basic segment">
+            {{content}}
+          </div>
+        </div>
+        <div class="sixteen wide tablet four wide computer column">
+          <div class="ui basic segment">
+            {% twitter https://twitter.com/JanTaverniers limit=5 maxwidth="100%" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

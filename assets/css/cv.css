@@ -1,0 +1,73 @@
+.hero {
+  background-image: url(../img/css/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px
+}
+
+.hero .buttons{
+  margin-top: 33.3333%;
+}
+.hero .button{
+  margin: 0.2em 0 0.2em 0 !important;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+}
+
+.main {
+
+  min-height:100%;
+}
+
+.main.grid {
+  min-height: 100%;
+}
+
+.face {
+  background-image: url('../img/css/me.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+.face .cv {
+  background-color: white;
+  min-height: 100%;
+}
+
+a {
+  color: black;
+}
+
+.projects {
+  background-image: url('../img/css/projects.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:100%;
+  background-position: 70% 50%;
+}
+
+.project, .project--title{
+  background-color: white;
+}
+
+.project--title {
+  margin-top: 5.6em;
+}
+
+.contact {
+  background-image: url('../img/css/contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:100%;
+  background-position: center bottom;
+  padding-top: 150px;
+  padding-bottom: 500px;
+}
+.contact--form {
+  background-color: white;
+}
