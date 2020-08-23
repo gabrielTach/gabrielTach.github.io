@@ -32,7 +32,6 @@ github_username:  jekyll
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-twitter-plugin
 
 collections:
   projects:
