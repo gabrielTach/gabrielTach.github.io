@@ -1,6 +1,6 @@
 {% include header.html %}
 {% include return_menu.html %}
-<div class="main">
+<div class="main main--projects">
   <div class="ui equal height main grid projects">
     <div class="sixteen wide phone ten wide tablet ten wide computer column">
       {% for project in site.projects %}
@@ -11,21 +11,21 @@
           {% assign position = "left" %}
         {% endif %}
         <div class="ui grid">
-          <div class="{{position}} floated center aligned four wide project--title column">
+          <div class="{{position}} floated center aligned twelve wide phone eight wide tablet four wide computer project--title column">
             <h1 class="ui header" id="{{project.name | slugify}}">
               {{ project.name }}
             </h1>
           </div>
         </div>
         <div class="ui grid">
-          <div class="{{position}} floated {{position}} aligned twelve wide project column">
+          <div class="{{position}} floated left aligned twelve wide project column">
             {{project.content}}
           </div>
         </div>
         {% if project.website != nil and project.website %}
           <div class="ui grid">
-            <div class="{{position}} floated {{position}} aligned four wide project column">
-              <i class="external alternate icon"></i> <a href="{{project.website}}" title="{{project.name}}">{{project.website}}</a>
+            <div class="{{position}} floated left aligned twelve wide tablet five wide computer project column">
+              <i class="external alternate icon"></i> <a href="http://{{project.website}}" title="{{project.name}}">{{project.website}}</a>
             </div>
           </div>
         {%endif%}

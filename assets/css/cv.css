@@ -1,6 +1,5 @@
 .hero {
-  background-image: url(../img/css/hero.jpg);
-  background-repeat: no-repeat;
+  background: black url("../img/css/hero.jpg") top right no-repeat;
   background-size: cover;
   min-height: 750px
 }
@@ -45,11 +44,7 @@ a {
 }
 
 .projects {
-  background-image: url('../img/css/projects.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
   min-height:100%;
-  background-position: 70% 50%;
 }
 
 .project, .project--title{
@@ -58,6 +53,16 @@ a {
 
 .project--title {
   margin-top: 5.6em;
+}
+
+.main--projects {
+  background-image: url('../img/css/projects.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 50%;
+  padding-left: 1.7em;
+  padding-right: 1.7em;
+  padding-bottom: 150px;
 }
 
 .contact {
@@ -80,4 +85,20 @@ a {
   background-size: cover;
   background-position: center right;
   min-height: 750px
+}
+
+.timeline-Body {
+  border-top-width: 0px !important;
+}
+
+.icon.ruby {
+  background-image: url('../img/css/icon/ruby.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1em !important;
+  display: inline-block;
+}
+
+.icon.ruby.black {
+  background-image: url('../img/css/icon/ruby-black.svg');
 }
