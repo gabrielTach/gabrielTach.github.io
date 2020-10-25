@@ -10,24 +10,19 @@ title: Portofolio
 I'm Jan Taverniers, a biology enthusiasts and a _touche-à-tout_. You can learn
  more about me and my [different projects]({% link projects.html %}) on this portofolio website.
 
-I am easy to reach so feel free to contact me. I am looking for a job right now
-as lab technician (and later as QA engineer) and I'd like to dip a toe into
-software development outside of what I am doing for my non-profits now.
+I am easy to reach so feel free to [contact me]({% link contact.html %}).
 
 
 <h4 class="ui horizontal divider header">
   <i class="briefcase icon"></i>
-  Are you a Headhunter?
+  What Keeps me Busy
 </h4>
+I am a Junior System Engineer at [AG Solution](https://agsolutiongroup.com) in Antwerpen, Belgium.
 
-Then you should have a look at my profile. It is quite atypical. I am sure you
+And I run two non-profits, [Flüüfff](https://fluufff.org) that organises a convention a year and [Ouftimeet](https://Ouftimeet.com) that regularly plans friendly meets.
+
+Don't forget to take a peak at my [Curriculum]({% link curriculum.html %}). It is quite atypical. I am sure you
 will find some interesting things in there!
-
-I am currently looking for a job as __lab technician in a Quality lab__
-(Biology/Biotechnology/Pharmaceutic) and as __DevOps if I can get a training
-first__.
-
-Don't forget to take a peak at my [Curriculum]({% link curriculum.html %}).
 
 <h4 class="ui horizontal divider header">
   <i class="coffee icon"></i>
@@ -54,8 +49,7 @@ so far it all did work out!
 I am also curious and I want to keep learning new things and keep on improving
 my current knowledge.
 
-I am currently learning on mastering Ruby on Rails and learning how to code in
-Kotlin (and later how to make Android Apps).
+I am currently learning Ruby on Rails (mastering), C#, diving deeper into Data Analysis and Machine Learning.
 
 <h4 class="ui horizontal divider header">
   <i class="bullhorn icon"></i>

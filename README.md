@@ -2,7 +2,7 @@
 
 ![](https://github.com/gabrielTach/gabrielTach.github.io/blob/master/.github/louisiana%20heron%20-%20Audubon.jpg?raw=true)
 
-The static website for my GitHub page. You can visit it at [gabrieltach.github.io](https://gabrieltach.github.io), if you want to have directly a loog at my CV you can [check it here](https://gabrieltach.github.io/curriculum).
+The static website for my GitHub page. You can visit it at [gabrieltach.github.io](https://gabrieltach.github.io), if you want to have directly a look at my CV you can [check it here](https://gabrieltach.github.io/curriculum).
 
 ## Requirements
 
